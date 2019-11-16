@@ -1,16 +1,6 @@
 
 
 
-*
-{
-margin: 0;
-padding: 0;
-}
-
-#nav-bar
-{
-posistion: sticky;
-top: 0;
 
 body {
   text-align: center;
@@ -21,127 +11,7 @@ body {
   background-image: url("background.jpg");
  
 }
-*
 
-.active {
-  background-color: #4CAF50; /* Add an active/current color */
-}
-
-A:link {
-	COLOR: #0000FF; text-decoration: none;
-}
-A:visited {
-	COLOR: #0000FF; text-decoration: none;
-}
-A:active {
-	COLOR: #0000FF; text-decoration: none;
-}
-A:hover {
-	COLOR: #FF0000; text-decoration: underline;
-}
-
-.main-nav
-{
-    float: right;
-    list-style: none;
-    margin-top: 30px;
-}
-.main-nav li
-{
-    display: inline-block;
-}
-
-.main-nav li.active a
-{
-    border: 1px solid black;
-    
-}
-
-.main-nav li a:hover
-{
-    border: 1px solid white;
-}
-
-
-.main-nav li a
-{
-    color: white;
-    text-decoration: none;
-    padding: 5px 20px;
-    font-family: "Roboto", sans-serif;
-    font-size: 15px;
-}
-{
-margin: 0;
-padding: 0;
-}
-
-#nav-bar
-{
-posistion: sticky;
-top: 0;
-z-index:10;
-}
-
-.navbar-nav li
-{
-   padding: 0 10px;
-}
-.navbar-nav li a
-{
-   float: right;
-   text-align:left;
-}
-#nav-bar ul li a:hover
-{
-      color:  #FFA500!important;
-}
-.navbar
-{
-background: #FFFFFF;
-}
-.navbar-toggler
-{
-border: none!important;
-}
-.nav-link
-{
-color: #FFA500!important;
-font-weight:600;
-font-size:16px;
-}
-#slide
-{
-width:100%;
-}
-.carousel-caption
-{
-top:30%;
-text-align:left;
-transform:transalate(-50%);
-bottom: initial!important;
-}
-.carousel-caption h5
-{
-color: #000000;
-font-size:52px;
-}
-#about hari
-{
-     padding-top:50px;
-     padding-bottom:50px; 
-     color:#555;
-}
-#home.btn
-{
- margin-top:20px;
- margin-bottom:30px;
-}
-.about-content
-{
-padding-top:20px;
-
-}
 
 #page_wrapper {
   margin-left: auto; 
@@ -282,12 +152,3 @@ padding-top:20px;
 }
 
 
-
-.main-nav li a
-{
-    color: white;
-    text-decoration: none;
-    padding: 5px 20px;
-    font-family: "Roboto", sans-serif;
-    font-size: 15px;
-}

@@ -38,6 +38,7 @@ background: #FFFFFF;
 .navbar-toggler
 {
 border: none!important;
+	border-style: none;
 }
 .nav-link
 {
@@ -58,7 +59,7 @@ bottom: initial!important;
 }
 .carousel-caption h5
 {
-color: #000000;
+color: #ffffff;
 font-size:52px;
 }
 #about hari

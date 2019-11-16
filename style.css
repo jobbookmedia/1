@@ -26,7 +26,7 @@ body {
 
 .main-nav li a:hover
 {
-    border: 1px solid white;
+    border: 1px solid black;
 }
 
 #page_wrapper {
@@ -34,8 +34,8 @@ body {
   margin-right: auto;
   width: 98%;
   text-align: left;
-  background: #FFFFFF;
-  border: 8px solid #FFFFFF;
+  background: #FFFF00;
+  border: 8px solid #000000;
 }
 
 #header_wrapper {

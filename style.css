@@ -8,6 +8,24 @@ body {
  
 }
 *
+
+.active {
+  background-color: #4CAF50; /* Add an active/current color */
+}
+
+A:link {
+	COLOR: #0000FF; text-decoration: none;
+}
+A:visited {
+	COLOR: #0000FF; text-decoration: none;
+}
+A:active {
+	COLOR: #0000FF; text-decoration: none;
+}
+A:hover {
+	COLOR: #FF0000; text-decoration: underline;
+}
+
 .main-nav
 {
     float: right;

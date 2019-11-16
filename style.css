@@ -7,18 +7,26 @@ body {
   background-image: url("background.jpg");
  
 }
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.main-nav li
+{
+    display: inline-block;
+}
 
-A:link {
-	COLOR: #0000FF; text-decoration: none;
+.main-nav li.active a
+{
+    border: 1px solid white;
+    
 }
-A:visited {
-	COLOR: #0000FF; text-decoration: none;
-}
-A:active {
-	COLOR: #0000FF; text-decoration: none;
-}
-A:hover {
-	COLOR: #FF0000; text-decoration: underline;
+
+.main-nav li a:hover
+{
+    border: 1px solid white;
 }
 
 #page_wrapper {
@@ -158,27 +166,7 @@ A:hover {
   line-height: 12px;
   color: #2153AA;
 }
-.main-nav
-{
-    float: right;
-    list-style: none;
-    margin-top: 30px;
-}
-.main-nav li
-{
-    display: inline-block;
-}
 
-.main-nav li.active a
-{
-    border: 1px solid white;
-    
-}
-
-.main-nav li a:hover
-{
-    border: 1px solid white;
-}
 
 
 .main-nav li a
